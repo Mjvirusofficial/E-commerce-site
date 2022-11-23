@@ -1,0 +1,20 @@
+.login-btn{
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    transition: 0.5s;
+    border: 2px solid green;
+    color: black;
+    background-color: white;
+}
+
+.login-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.pages:hover{
+    color: green;
+}

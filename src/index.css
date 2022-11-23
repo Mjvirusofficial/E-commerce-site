@@ -1,13 +1,95 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.virus{
+    color: green;
+    font-family: 'Combo', cursive;
 }
+
+.menu{
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+}
+
+
+
+/* Contact part */
+
+form {
+    text-align:center ;
+}
+form input {
+    border-radius:5px;
+    margin-top:10px;
+    border:1px solid #000;
+    width:300px;
+    height:30px;
+}
+textarea {
+    border-radius:5px;
+    margin-top:10px;
+    border:1px solid #000;
+    width:300px;
+    height:100px;
+}
+.submit {
+    background-color:#000;
+    color:#fff;
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Combo', cursive;
+}
+
+/* Contact */
+.button{
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+ }
+ 
+.button_div{
+    text-align: center;
+}
+
+.div{
+    border: 2px solid green;
+}
+
+.start_shop{
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid green;
+    color: black;
+ }
+ 
+ .start_shop:hover{
+ background-color: green;
+ color: white;
+ }
+
+ #para{
+    margin-top: 20vh;
+ }
+
+
+
+
+
+body{
+    
+}
+
